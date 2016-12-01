@@ -3797,10 +3797,10 @@ a.panel-block:hover {
 
 /*# sourceMappingURL=bucharestsite.css.map */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 800px) {
   .title.is-1,
   .title.is-2{
-    font-size: 25px;
+    font-size: 25px !important;
   }
 
   .title:not(:last-child),
@@ -3812,19 +3812,19 @@ a.panel-block:hover {
 
   .title,
   .subtitle.is-4 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 
   .content {
-    font-size: 11px;
+    font-size: 10px !important;
   }
 
   .hero-foot {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .is-medium{
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .nav-item {
@@ -3832,37 +3832,37 @@ a.panel-block:hover {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 800px) {
-  .title.is-1,
-  .title.is-2{
-    font-size: 25px;
-  }
+/*@media screen and (orientation: landscape) and (max-width: 800px) {*/
+  /*.title.is-1,*/
+  /*.title.is-2{*/
+    /*font-size: 25px;*/
+  /*}*/
 
-  .title:not(:last-child),
-  .subtitle:not(:last-child),
-  .content p:not(:last-child)
-  {
-    margin-bottom: 14px;
-  }
+  /*.title:not(:last-child),*/
+  /*.subtitle:not(:last-child),*/
+  /*.content p:not(:last-child)*/
+  /*{*/
+    /*margin-bottom: 14px;*/
+  /*}*/
 
-  .title,
-  .subtitle.is-4 {
-    font-size: 15px;
-  }
+  /*.title,*/
+  /*.subtitle.is-4 {*/
+    /*font-size: 15px;*/
+  /*}*/
 
-  .content {
-    font-size: 11px;
-  }
+  /*.content {*/
+    /*font-size: 11px;*/
+  /*}*/
 
-  .hero-foot {
-    font-size: 10px;
-  }
+  /*.hero-foot {*/
+    /*font-size: 10px;*/
+  /*}*/
 
-  .icon {
-    font-size: 14px;
-  }
+  /*.icon {*/
+    /*font-size: 14px;*/
+  /*}*/
 
-  .nav-item {
-    padding: 5px;
-  }
-}
+  /*.nav-item {*/
+    /*padding: 5px;*/
+  /*}*/
+/*}*/

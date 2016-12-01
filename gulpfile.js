@@ -19,7 +19,8 @@ var path = {
         js:    'build/js/',
         css:   'build/styles/',
         img:   'build/img/',
-        fonts: 'build/fonts/'
+        fonts: 'build/fonts/',
+        favicons: 'build/img/favicon/'
     },
     src: { //Пути откуда брать исходники
         html:  'src/*.jade',
@@ -31,7 +32,8 @@ var path = {
             'src/style/**/*.scss',
             'src/style/**/*.css'
         ],
-        img:   'src/img/*.*'
+        img:   'src/img/*.*',
+        favicons: 'src/img/favicon/*.*'
         //fonts: 'src/fonts/**/*.*'
     },
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
@@ -102,6 +104,8 @@ gulp.task('image', function () {
             interlaced: true
         }))
         .pipe(gulp.dest(path.build.img)); //И бросим в build
+    gulp.src(path.src.favicons)
+        .pipe(gulp.dest(path.build.favicons));
 });
 
 gulp.task('build', [
