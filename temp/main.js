@@ -3200,10 +3200,10 @@ fx.settings = {
     to : "EUR"
 };
 
-function getAllRates (saint) {
-    var metroEur = (fx.convert(saint.metro)).toFixed(2);
-    console.log(metroEur);
-}
+//function getAllRates (saint) {
+//    var metroEur = (fx.convert(saint.metro)).toFixed(2);
+//    console.log(metroEur);
+//}
 
 //Settings for the countUp.js
 
@@ -3249,7 +3249,7 @@ $(function () {
         anchors: saintArr,
         scrollingSpeed: 1200,
         //todo: анимация на CSS3
-        easing: 'easeOutQuint',
+        easing: 'easeInQuint',
         css3: false,
         controlArrows: true,
         //slidesNavigation: true,
@@ -3267,7 +3267,7 @@ $(function () {
                 if (anchorLink == saintArrPos && (saintArrPos != 'welcome' && saintArrPos != 'credits')) {
                     var convertMoney = parseFloat((fx.convert(saint[saintArrPos]).toFixed(2)));
                     var tagname = 's' + saintArrPos;
-                    var myCounter = new CountUp(tagname, 0, convertMoney, 2, 1, options);
+                    var myCounter = new CountUp(tagname, 0, convertMoney, 2, 0.7, options);
                     myCounter.start();
                 }
             }

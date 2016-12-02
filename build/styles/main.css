@@ -4693,46 +4693,42 @@ html {
     background-image: url('../img/main.jpg');
 }
 
-.hermitage {
-    background-image: url('../img/hermitage.jpg');
-}
-
-.boattrip {
-    background-image: url('../img/boattrip.jpg');
-}
-
-.pyshka {
-    background-image: url('../img/donut.jpg');
-}
-
-.isaak {
-    background-image: url('../img/isaak.jpg');
-}
-
-.peterhof {
-    background-image: url('../img/peterhof.jpg');
+.parliament {
+    background-image: url('../img/parliament.jpg');
 }
 
 .taxi {
     background-image: url('../img/taxi.jpg');
 }
 
+.covrigul {
+    background-image: url('../img/covrigul.jpg');
+}
 
 .metro {
     background-image: url('../img/metro.jpg');
 }
 
-.swanlake {
-    background-image: url('../img/swanlake.jpg');
+.primaverii{
+    background-image: url('../img/primaverii.jpg');
 }
 
-.moscow {
-    background-image: url('../img/moscow.jpg');
+.shaorma {
+    background-image: url('../img/shaorma.jpg');
 }
 
-.credits {
-    background-image: url('../img/credits.jpg');
+.filarmonica {
+    background-image: url('../img/filarmonica.jpg');
 }
+
+.espresso {
+    background-image: url('../img/espresso.jpg');
+}
+
+.constanta {
+    background-image: url('../img/constanta.jpg');
+}
+
 
 .title,
 .subtitle,
