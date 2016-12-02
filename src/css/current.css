@@ -75,6 +75,10 @@ html {
     background-image: url('../img/constanta.jpg');
 }
 
+.credits {
+    background-image: url('../img/credits.jpg');
+}
+
 
 .title,
 .subtitle,
