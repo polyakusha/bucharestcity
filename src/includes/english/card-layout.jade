@@ -1,0 +1,125 @@
+-
+    var saintpCards = [];
+    saintpCards[0] = {
+        name: 'parliament',
+        title: 'Palace of Parliament',
+        subtitle: 'or the People’s House',
+        text: '<p>The biggest building in&nbsp;Europe and the symbol of&nbsp;the Communist era is&nbsp;now available <a href=\"http:\/\/cic.cdep.ro\/en\/visiting\/visiting-routes\">for walking tours<\/a>. The Inside of&nbsp;the building is&nbsp;even more impressive&nbsp;&mdash; everything is&nbsp;made out of&nbsp;Romanian materials and the longest tour will take you from the air terrace to&nbsp;the basement, where Ceausescu and Jeremy Clarkson rode their cars.<\/p>',
+        pricetitle: 'Long tour',
+        id: 'sparliament',
+        price: '55 lei'
+    }
+
+    saintpCards[1] = {
+        name: 'taxi',
+        title: 'Taxi',
+        subtitle: 'Uber or Yellow Cab',
+        text: '<p>Taxis are usually cheap. Just look at&nbsp;their side doors for the price. Sometimes drivers won&rsquo;t turn on&nbsp;their devices, directly trying to&nbsp;negotiate a&nbsp;total price with you. For not to&nbsp;get into troubles, it&nbsp;is&nbsp;recommended to&nbsp;call for a&nbsp;taxi or&nbsp;to&nbsp;order one by&nbsp;<a href=\"http:\/\/romaniasoft.ro\/toate-aplicatiile-prin-care-comanzi-taxi-de-pe-iphone-sau-android\/">mobile app<\/a>.<\/p>',
+        pricetitle: 'Average ride',
+        id: 'staxi',
+        price: '10 lei'
+    }
+
+    saintpCards[2] = {
+        name: 'covrigul',
+        title: 'Covrigul',
+        subtitle: 'Romanian pretzel',
+        text: '<p>At&nbsp;almost every corner of&nbsp;Bucharest you can buy cheap and tasty covrigul&nbsp;&mdash; The Romanian kind of&nbsp;pretzel or&nbsp;Simit. It&nbsp;is&nbsp;the most popular street food here and in&nbsp;common versions it&nbsp;comes with sesame, poppy, sunflower seeds and raisins.<\/p>',
+        pricetitle: '1 covrig',
+        id: 'scovrigul',
+        price: '1 lei'
+    }
+
+    saintpCards[3] = {
+        name: 'metro',
+        title: 'Metro',
+        subtitle: 'One ticket valid for two trips',
+        text: '<p>The metro was built during the Communist era to&nbsp;take people from the suburbs to&nbsp;their working places. Now you can enjoy a&nbsp;ride with a&nbsp;book to&nbsp;one of&nbsp;the shopping malls or&nbsp;go&nbsp;to&nbsp;the station &ldquo;Politehnica&rdquo; and check out <a href=\"http:\/\/www.amusingplanet.com\/2015\/05\/the-stunning-secret-of-politehnica.html\">the Jurrassic Period molluscs<\/a> inside the marble.<\/p>',
+        pricetitle: '1 ticket for 2 trips',
+        id: 'smetro',
+        price: '5 lei'
+    }
+
+    saintpCards[4] = {
+        name: 'primaverii',
+        title: 'Palatul Primaverii',
+        subtitle: 'Former house of Ceausescu',
+        text: '<p>If&nbsp;you want to&nbsp;see how the leader lived, while ruling Romania over 24&nbsp;years&nbsp;&mdash; <a href=\"http:\/\/palatulprimaverii.ro\/#rezervati\">go&nbsp;and visit his former residence<\/a>. You are going to&nbsp;see his flat, his swimming pool, an&nbsp;indoor and outdoor garden, a&nbsp;private cinema and the &ldquo;golden bathroom&rdquo;, which is&nbsp;not really golden. The museum opened only in&nbsp;2016, so&nbsp;be&nbsp;one of&nbsp;the first tourists to&nbsp;come here.<\/p>',
+        pricetitle: 'English speaking tour',
+        id: 'sprimaverii',
+        price: '45 lei'
+    }
+
+    saintpCards[5] = {
+        name: 'shaorma',
+        title: 'Shaorma',
+        subtitle: 'They add fries into the kebab!',
+        text: '<p>The common name for kebab in&nbsp;Bucharest is&nbsp;Shaorma. There are fancy ones, expensive ones, cheap ones and the ones where you are getting your meat inside a&nbsp;ciabatta. Pay attention to that they are always adding fries inside and definitely try the &quot;piquant&quot;(spicy) sauce.<\/p>',
+        pricetitle: 'Average small shaorma',
+        id: 'sshaorma',
+        price: '11 lei'
+    }
+
+    saintpCards[6] = {
+        name: 'filarmonica',
+        title: 'Filarmonica George Enescu',
+        subtitle: 'Music in the most beautiful building of the town',
+        text: '<p>The Philharmonic Orchestra was named after the great Romanian composer George Enescu, who played his shows inside the Romanian Athenaeum. The Inside of&nbsp;the building is&nbsp;even more beautiful, so&nbsp;it&nbsp;is&nbsp;worth to&nbsp;check it out, even if&nbsp;you are not a&nbsp;fan of&nbsp;classical music. Sparkling wine inside is&nbsp;also not very expensive.<\/p>',
+        pricetitle: 'Average ticket',
+        id: 'sfilarmonica',
+        price: '30 lei'
+    }
+
+    saintpCards[7] = {
+        name: 'espresso',
+        title: 'Espresso',
+        subtitle: 'Drink it in the morning',
+        text: '<p>Romanian people love coffee and drink tea only in&nbsp;winter. There are: hipster coffee places, fancy coffee places, ugly coffee places and shops with Tchibo machines with the cheapest coffee of&nbsp;the town.<\/p>',
+        pricetitle: 'Average price',
+        id: 'sespresso',
+        price: '6 lei'
+    }
+
+    saintpCards[8] = {
+        name: 'constanta',
+        title: 'Constanta',
+        subtitle: 'If you need water - it’s here',
+        text: '<p>The only one thing that is&nbsp;missing in&nbsp;Bucharest&nbsp;&mdash; is&nbsp;the water. And when there is&nbsp;hot summer and you want to&nbsp;refresh yourself lying by&nbsp;the sea with extremely cheap Aperol Spritz&nbsp;&mdash; you may come to&nbsp;Constanta. When you get tired of&nbsp;swimming and sunbathing, check out the beautiful <a href=\"https:\/\/en.wikipedia.org\/wiki\/Constan%C8%9Ba_Casino\">Art Nouveau Casino<\/a>.<\/p>',
+        pricetitle: 'Average round trip',
+        id: 'sconstanta',
+        price: '100 lei'
+    }
+
+for every in saintpCards
+    .section(class='#{every.name}')
+        section.hero.is-fullheight
+            .pattern
+            .hero-head
+                .container.is-hidden-mobile
+                    span.icon.is-medium.moveup
+                        a
+                            i.fa.fa-chevron-up
+            .hero-body
+                .container.has-text-centered
+                    .columns.is-vcentered
+                        .column.is-8.is-offset-2
+                            h2.title.is-2
+                                | #{every.title}
+                            h3.subtitle.is-4
+                                | #{every.subtitle}
+                            .content
+                                p
+                                | !{every.text}
+                                p.title  #{every.pricetitle}:
+                                p.title.is-1(id='#{every.id}') #{every.price}
+            .hero-foot
+                .container
+                    span.icon.is-medium.movedown.is-hidden-mobile
+                        a
+                            i.fa.fa-chevron-down
+
+
+
+
+
+
